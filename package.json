@@ -5,8 +5,8 @@
     "scripts": {
         "build": "next build",
         "dev": "next",
-        "format-check": "prettier --check .",
-        "lint": "eslint . --ext ts --ext tsx --ext js",
+        "format-check": "prettier src --check",
+        "lint": "eslint src --ext ts --ext tsx --ext js",
         "start": "next start",
         "test": "jest",
         "type-check": "tsc"
