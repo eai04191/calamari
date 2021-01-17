@@ -1,0 +1,28 @@
+@tailwind components;
+
+.react-mde {
+    @apply w-full;
+    /* 空の高さと合わせる */
+    min-height: 240px;
+}
+
+.react-mde .invisible {
+    @apply hidden;
+}
+
+.react-mde .mde-header {
+    @apply hidden;
+}
+
+.react-mde .mde-preview .mde-preview-content {
+    @apply p-0 pl-2;
+}
+
+.react-mde .mde-preview .mde-preview-content img {
+    @apply my-2 rounded-md shadow-sm overflow-hidden;
+}
+
+.react-mde textarea {
+    @apply p-2 w-full border border-gray-300 rounded;
+    @apply focus:ring-black focus:ring-2 ring-inset;
+}

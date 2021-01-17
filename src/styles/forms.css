@@ -1,0 +1,27 @@
+@tailwind components;
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    @apply block mt-1 rounded-md shadow-sm;
+}
+
+input[type="checkbox"] {
+    @apply mr-1 rounded shadow-sm;
+}
+
+/* tailwindによってリストのマークが消されているのである程度つける */
+
+ul {
+    list-style-type: disc;
+}
+
+ul ul {
+    list-style-type: circle;
+}
+
+ul ul ul {
+    list-style-type: square;
+}
